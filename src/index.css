@@ -200,3 +200,117 @@ header nav ul li a:hover {
 }
 
 /* contact end */
+
+/* portfolio */
+
+#portfolio {
+  text-align: end;
+  padding-bottom: 10px;
+  margin: 50px 40px 40px 10px;
+  font-size: 65px;
+}
+
+.card{
+  position: relative;
+  display: flex;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-body{
+  flex: 1 1 auto;
+  padding: 16px 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.card-title, .card-text {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.card-link {
+  padding: 0 10px;
+  padding-bottom: 40px;
+}
+
+.card-link:hover {
+  filter: drop-shadow(2px 0.5px 3px var(--secondary-color));
+}
+
+.project-img {
+  height: 400px;
+  width: 800px;
+  margin-left: 110px;
+}
+
+.project-title {
+  text-decoration: none;
+  color: var(--link-color);
+  text-shadow: 2px 0.5px 3px var(--link-color);
+  font-size: 40px;
+}
+
+.card-title a:hover{
+  text-shadow: 2px 0.5px 3px var(--secondary-color);
+}
+
+
+/* end portfolio */
+
+/* Resume styling */
+
+#resume{
+  text-align: end;
+  padding-bottom: 10px;
+  margin: 50px 100px 40px 10px;
+  font-size: 65px;
+  flex-wrap: wrap;
+}
+
+.resume p {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 50px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.resume a:hover {
+  text-shadow: 2px 0.5px 3px var(--secondary-color);
+}
+
+.proficiencies{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  margin: 20px 600px 0 600px;
+  justify-content: center;
+}
+
+.front-end{
+  padding-right: 120px;
+}
+
+.proficiencies div ul li {
+  padding-top: 50px;
+  line-height: 2px;
+  padding-left: 30px;
+  margin: 0 auto;
+  max-width: 230px;
+  font-size: 22px;
+}
+
+/* end resume */
