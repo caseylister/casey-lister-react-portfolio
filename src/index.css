@@ -314,3 +314,44 @@ header nav ul li a:hover {
 }
 
 /* end resume */
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* footer styles */
+footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color), var(--primary-color));
+  margin-bottom: 0px;
+  bottom: 0;
+  position: absolute;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+}
+
+.footer-content img {
+  padding: 5px;
+}
+
+.footer-content img:hover {
+  filter: brightness(2);
+}
+
+/* end footer */
+
+/* responsive styling */
