@@ -85,3 +85,118 @@ header nav ul li a:hover {
 }
 
 /* End header styles */
+
+/* about me */
+
+#about{
+  text-align: end;
+  padding-bottom: 10px;
+  margin: 50px 100px 20px auto;
+  font-size: 65px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-img {
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  margin: auto 40px 30px 150px;
+}
+
+.about-text{
+  font-size: 22px;
+  line-height: 1.5;
+  flex: 2;
+  margin: auto 150px;
+}
+
+/* about me end */
+
+/* Contact style */
+
+#contact {
+  text-align: end;
+  padding-bottom: 10px;
+  margin: 50px 100px 20px auto;
+  font-size: 65px;
+}
+
+.contact-form {
+  /* flex: 100%; */
+  max-width: 700px;
+  margin: 20px 700px 0;
+  padding-bottom: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form div {
+  display: contents;
+}
+
+.contact-form label {
+  flex: 100%;
+  font-size: 25px;
+  color: var(--tertiary-color);
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.contact-form input {
+  height: 40px;
+}
+
+.contact-form input, .contact-form textarea {
+  flex: 100%;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: var(--white);
+  font-size: 16px;
+  border: 1px solid var(--secondary-color);
+  box-shadow: var(--secondary-color) 0px 3px 10px;
+}
+
+.contact-form textarea {
+  padding-top: 8px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--link-color);
+}
+
+.contact-form button {
+  flex: 0 50%;
+  padding: 10px;
+  margin: 15px auto;
+  border-radius: 5px;
+  background-color: var(--link-color);
+  opacity: 0.7;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover{
+  opacity: 1;
+}
+
+.contact-form p{
+  font-size: 20px;
+}
+
+.error-message {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+
+/* contact end */
