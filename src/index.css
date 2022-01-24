@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* clear browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Righteous';
+}
+
+/* Color pallet */
+:root {
+  --primary-color: #1C0B19;
+  --secondary-color: #9ba2ff;
+  --tertiary-color: #6FEDB7;
+  --link-color: #E86A92;
+  --white: whitesmoke;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  line-height: 1.5px;
+  font-size: 20px;
+  background: var(--primary-color);
+  color: var(--white);
+  font-family: 'Righteous';
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  margin: 5px 0;
+  line-height: 1.25;
+}
+
+.text{
+  margin-left: 33px;
+  font-size: 60px;
+}
