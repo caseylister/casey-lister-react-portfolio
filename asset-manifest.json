@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.cc87f535.css",
+    "main.js": "/react-portfolio/static/js/main.079faa01.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/tech-savvy.png": "/react-portfolio/static/media/tech-savvy.bcd26b7661798583b792.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.82b6ac76a5d627a47cdc.png",
+    "static/media/team.png": "/react-portfolio/static/media/team.95b0540c29b1968c7e7a.png",
+    "static/media/myphoto.png": "/react-portfolio/static/media/myphoto.715fa394c4b24a04be09.png",
+    "static/media/codeq.png": "/react-portfolio/static/media/codeq.898c2d448240d93e966c.png",
+    "static/media/chatly.png": "/react-portfolio/static/media/chatly.81597a4cd5dd7cf18db3.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.4c4925f6dbb5a92f7fd9.png",
+    "static/media/CaseyLister-resume.pdf": "/react-portfolio/static/media/CaseyLister-resume.49dd2396861989eef2f8.pdf",
+    "static/media/github-logo.png": "/react-portfolio/static/media/github-logo.6fdc80f1a5d385046460.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.cc87f535.css.map": "/react-portfolio/static/css/main.cc87f535.css.map",
+    "main.079faa01.js.map": "/react-portfolio/static/js/main.079faa01.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc87f535.css",
+    "static/js/main.079faa01.js"
+  ]
+}
