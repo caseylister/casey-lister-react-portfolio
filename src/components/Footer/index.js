@@ -1,8 +1,11 @@
 import React from 'react';
+// import logos
 import gitHub from '../../assets/github-logo.png'
 import linkedIn from '../../assets/linkedin.png'
 import stack from '../../assets/stack.png'
 
+
+// footer with links to profiles
 function Footer() {
     return (
         <footer id="footer">
@@ -22,5 +25,5 @@ function Footer() {
         </footer>
     )
 }
-
+// export footer()
 export default Footer;

@@ -1,5 +1,7 @@
 import React from "react";
 import github from '../../assets/github-logo.png';
+
+// import project pictures
 import img1 from '../../assets/codeq.png';
 import img2 from '../../assets/weather.png';
 import img3 from '../../assets/note-taker.png';
@@ -60,7 +62,7 @@ function Project() {
             img: `${img6}`
         }
     ];
-
+    // map over projects in array 
     return (
         <section className="my-5">
             <h1 id="portfolio">Projects</h1>
@@ -96,5 +98,5 @@ function Project() {
         </section>
     )
 }
-
+// export project()
 export default Project;

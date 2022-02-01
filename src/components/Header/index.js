@@ -5,7 +5,7 @@ import Contact from '../Contact';
 import Project from '../Project';
 import Resume from '../Resume';
 
-
+// set up header
 function Header(){
     const [currentPage, handlePageChange] = useState('About');
 
@@ -28,6 +28,7 @@ function Header(){
             <div className="flex-row header-block">
                 <h1 class="text text-1">Casey Lister</h1>
                 <div className="flex-row">
+                    {/* set up current page when clicked */}
                     <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
                 </div>
             </div>
@@ -38,4 +39,5 @@ function Header(){
     )
 };
 
+// export header
 export default Header;

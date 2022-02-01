@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
+// main layout
 function App() {
   return (
     <div id="page-container">
@@ -13,5 +13,5 @@ function App() {
     </div>
   );
 }
-
+// export App()
 export default App;

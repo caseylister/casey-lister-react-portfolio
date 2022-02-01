@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
+// set up contact form
 function Contact(){
     const [form, setForm] = useState({
         name: "",
@@ -17,7 +18,7 @@ function Contact(){
             console.log("Submit Form", form);
         }
     };
-
+    // validate email
     const change = (e) => {
         if(e.target.name === "email"){
             const isValid = validateEmail(e.target.value);
@@ -78,5 +79,5 @@ function Contact(){
         </section>
     )
 }
-
+// export Contact();
 export default Contact;

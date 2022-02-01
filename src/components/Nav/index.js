@@ -1,5 +1,6 @@
 import React from 'react';
 
+// set up nav props
 function Nav(props) {
 
     const tabs = ['About', 'Project', 'Contact', 'Resume'];
@@ -20,4 +21,5 @@ function Nav(props) {
     )
 }
 
+// export nav()
 export default Nav;

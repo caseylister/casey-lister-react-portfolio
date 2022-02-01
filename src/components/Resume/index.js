@@ -1,12 +1,14 @@
 import resume from "../../assets/CaseyLister-resume.pdf";
 import React from "react";
 
+// resume page
 function Resume() {
   return (
     <section className="my-5">
             <h1 id="resume">Resume</h1>
             <section className="resume content">
             <p>
+                {/* downloadable resume */}
             Download my <a href={resume} download>resume</a>!
             </p>
             </section>
@@ -47,4 +49,5 @@ function Resume() {
   );
 };
 
+// export resume
 export default Resume;

@@ -1,6 +1,8 @@
 import React from "react";
+// import profile photo
 import myPhoto from '../../assets/myphoto.png';
 
+// About section on main page
 function About() {
     return (
         <section>
@@ -17,4 +19,5 @@ function About() {
     );
 }
 
+// export About();
 export default About;
