@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/casey-lister-react-portfolio/static/css/main.cc87f535.css",
-    "main.js": "/casey-lister-react-portfolio/static/js/main.1eb284b8.js",
+    "main.js": "/casey-lister-react-portfolio/static/js/main.2549fb34.js",
     "static/js/787.160658cb.chunk.js": "/casey-lister-react-portfolio/static/js/787.160658cb.chunk.js",
     "static/media/tech-savvy.png": "/casey-lister-react-portfolio/static/media/tech-savvy.bcd26b7661798583b792.png",
     "static/media/weather.png": "/casey-lister-react-portfolio/static/media/weather.82b6ac76a5d627a47cdc.png",
     "static/media/team.png": "/casey-lister-react-portfolio/static/media/team.95b0540c29b1968c7e7a.png",
     "static/media/myphoto.png": "/casey-lister-react-portfolio/static/media/myphoto.715fa394c4b24a04be09.png",
     "static/media/codeq.png": "/casey-lister-react-portfolio/static/media/codeq.898c2d448240d93e966c.png",
+    "static/media/relaxn.png": "/casey-lister-react-portfolio/static/media/relaxn.6897f3eb628ad863034d.png",
     "static/media/chatly.png": "/casey-lister-react-portfolio/static/media/chatly.81597a4cd5dd7cf18db3.png",
     "static/media/note-taker.png": "/casey-lister-react-portfolio/static/media/note-taker.4c4925f6dbb5a92f7fd9.png",
     "static/media/CaseyLister-resume.pdf": "/casey-lister-react-portfolio/static/media/CaseyLister-resume.49dd2396861989eef2f8.pdf",
     "static/media/github-logo.png": "/casey-lister-react-portfolio/static/media/github-logo.6fdc80f1a5d385046460.png",
     "index.html": "/casey-lister-react-portfolio/index.html",
     "main.cc87f535.css.map": "/casey-lister-react-portfolio/static/css/main.cc87f535.css.map",
-    "main.1eb284b8.js.map": "/casey-lister-react-portfolio/static/js/main.1eb284b8.js.map",
+    "main.2549fb34.js.map": "/casey-lister-react-portfolio/static/js/main.2549fb34.js.map",
     "787.160658cb.chunk.js.map": "/casey-lister-react-portfolio/static/js/787.160658cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc87f535.css",
-    "static/js/main.1eb284b8.js"
+    "static/js/main.2549fb34.js"
   ]
 }
