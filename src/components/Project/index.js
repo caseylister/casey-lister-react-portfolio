@@ -8,7 +8,7 @@ import img3 from '../../assets/note-taker.png';
 import img4 from '../../assets/tech-savvy.png';
 import img5 from '../../assets/chatly.png';
 import img6 from '../../assets/team.png';
-
+import img7 from '../../assets/relaxn.png';
 
 function Project() {
 
@@ -60,6 +60,14 @@ function Project() {
             deployed: 'https://github.com/caseylister/team-profile-generator',
             skills: 'Javascript, Node.js, OOP',
             img: `${img6}`
+        },
+        {
+            name: 'Relaxn',
+            description: "A full-stack application made to boost users' moods based on their emotions.",
+            github: 'https://github.com/Brock-Merritt/Relaxn',
+            deployed: 'https://relaxn.herokuapp.com/',
+            skills: 'CSS, Javascript, Node.js, Express.js, MongoDB, React, Graphql, Apollo, Stripe, Heroku',
+            img: `${img7}`
         }
     ];
     // map over projects in array 
